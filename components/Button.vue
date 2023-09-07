@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { KolButton } from "@public-ui/vue";
+
 // variable
 const msg = "Hello!";
 
@@ -11,5 +13,5 @@ function log() {
 }
 </script>
 <template>
-  <kol-button _label="modelValue" @click="log" v-bind:_on="on"></kol-button>
+  <KolButton _label="modelValue" @click="log" v-bind:_on="on" />
 </template>

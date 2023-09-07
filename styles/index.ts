@@ -1,20 +1,27 @@
-import { KoliBriDevHelper, register } from '@public-ui/components';
-import { BMF, DESYv2, ECL_EC, ECL_EU, ITZBund, MAPZ, ZOLLv2 } from '@public-ui/themes';
-import { TH } from '@public-oss/kolibri-themes';
-import './base.css';
+import { TH } from "@public-oss/kolibri-themes";
+import { register } from "@public-ui/components";
+import {
+  BMF,
+  DEFAULT,
+  DESYv2,
+  ECL_EC,
+  ECL_EU,
+  ITZBund,
+  MAPZ,
+  ZOLLv2,
+} from "@public-ui/themes";
+import "./base.css";
 
 register(
-	[BMF, DESYv2, ECL_EC, ECL_EU, ITZBund, MAPZ, ZOLLv2, TH],
-	() => {
-		return new Promise((resolve) => resolve());
-	},
-	{
-		theme: {
-			detect: 'auto',
-		},
-	}
+  [BMF, DEFAULT, DESYv2, ECL_EC, ECL_EU, ITZBund, MAPZ, ZOLLv2, TH],
+  [],
+  {
+    theme: {
+      detect: "auto",
+    },
+  }
 )
-	.then(() => {
-		document.body.dataset.theme = 'itzbund';
-	})
-	.catch(() => console.warn);
+  .then(() => {
+    document.body.dataset.theme = "itzbund";
+  })
+  .catch(() => console.warn);
