@@ -115,7 +115,7 @@ Folgenden Fragen wollen wir auf den Grund gehen?
 - Warum ist KoliBri so **flexibel**?
 - Wo wird denn hier was **eingespart**?
 - Was macht eigentlich den **Unterschied**?
-- Wo steht KoliBri und wo geht er **hin**?
+- Wo steht KoliBri und wo will er **hin**?
 - Was steckt hinter der **Lizenz EUPL**?
 
 ---
@@ -245,13 +245,19 @@ handle: 8
 
 # Ausblick
 
-<small class="underline">Wo geht KoliBri hin?</small>
+<small class="underline">Wo will KoliBri hin?</small>
 
-Auf Basis von **KoliBri** werden schon mehrere Design Systeme (bspw. **DeSyBri** und **KERN**) umgesetzt. Hierbei können alle vorhandenen Komponenten genutzt und um eigene größere Komponenten erweitert werden.
+**KoliBri** wurde durch den **ITZBund** für die **Open Source**-Entwicklung **freigegeben**, um für alle zugänglich zu sein und um aus dem Feedback der Community kontinuierlich verbessert und erweitert werden zu können.
 
-Die grafische Gestaltung erfolgt mittels des Themings. Hierfür kann der Designer oder auch reines CSS, SCSS usw. verwendet werden.
+**KoliBri** bietet hierfür eine optimale Wiederverwendbarkeit, weil er …
 
-KoliBri wird kontinuierlich weiterentwickelt. Ebenso werden Neuerungen an den Regelwerken (bspw. WCAG, EN und BITV) stetig eingearbeitet und von unseren Expert:innen für Barrierefreiheit getestet. Dabei werden die Anforderungen der Bundesverwaltung und der Open Source Community berücksichtigt.
+- **klein** - kleinteilige Komponenten,
+- **schnell** - automatisierte DevOps-Pipelines,
+- **wendig** - Framework-agnostisch und
+- **farbenfroh** - entkoppeltes Theming
+
+<br/>
+… ist.
 
 ---
 layout: image-right
@@ -288,9 +294,9 @@ Du kannst folgendes tun, um **KoliBri** kennenzulernen …
 
 - <kol-link _href="https://public-ui.github.io" _target="website">Lese mehr über KoliBri</kol-link> (Dokumentation)
 - <kol-link _href="https://public-ui.github.io/docs/get-started/first-steps" _target="website">Probiere KoliBri aus</kol-link> (Create-App)
-- <kol-link _href="https://public-ui.github.io/docs/concepts/architecture#erweitert" _target="github">Nutze KoliBri in Deinem Design System</kol-link> (Nutzen)
+- <kol-link _href="https://public-ui.github.io/docs/konzepte/architektur#erweitert" _target="github">Nutze KoliBri in Deinem Design System</kol-link> (Nutzen)
 - <kol-link _href="https://public-ui.github.io/docs/concepts/styling/theming" _target="website">Gestalte Dein eigenen KoliBri</kol-link> (Designer)
-- <kol-link _href="https://public-ui.github.io/sample-react/#/button/basic" _target="website">Lerne anhand von Beispielen</kol-link> (Samples)
+- <kol-link _href="https://github.com/public-ui/kolibri/issues" _target="github">Gib uns Feedback</kol-link> (Feature, Issue)
 - <kol-link _href="https://github.com/public-ui/kolibri" _target="github">Folge und teile uns</kol-link> (Follow-Button)
 
 </v-clicks>
@@ -299,7 +305,7 @@ Du kannst folgendes tun, um **KoliBri** kennenzulernen …
 layout: center
 ---
 
-<img class="m-auto block w-50 pb-10" src="/assets/qr-code2.png" />
+<img class="m-auto block w-50 pb-10" src="/assets/qr-code.png" />
 
 # Vielen Dank für Eure Aufmerksamkeit
 
