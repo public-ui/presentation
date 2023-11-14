@@ -199,7 +199,7 @@ Im Code-Beispiel wird dargestellt, wie die Anforderungen an die Barrierefreiheit
 <div slot="content"> -->
 
 ```tsx {1,14|2-8|9-13|all}
-<kol-button _icon="ui-home" _icon-only _label="Primary">
+<kol-button _icons="ui-home" _icon-only _label="Primary">
 	<button aria-labelledby="574540" class="primary" type="button">
 		<span>
 			<kol-icon>
@@ -315,11 +315,11 @@ Lasst uns gemeinsam KoliBri bunter und besser machen!<br/><br/></small>
 
 
 <ul class="flex">
-  <li class="list-none"><kol-link _href="https://public-ui.github.io" _target="website"><kol-icon _icon="codicon codicon-book" /> Dokumentation</kol-link></li>
+  <li class="list-none"><kol-link _href="https://public-ui.github.io" _target="website"><kol-icon _icons="codicon codicon-book" /> Dokumentation</kol-link></li>
   <li class="list-none">|</li>
-  <li class="list-none"><kol-link _href="mailto:kolibri@itzbund.de" _target="mail"><kol-icon _icon="codicon codicon-mail" /> kolibri@itzbund.de</kol-link></li>
+  <li class="list-none"><kol-link _href="mailto:kolibri@itzbund.de" _target="mail"><kol-icon _icons="codicon codicon-mail" /> kolibri@itzbund.de</kol-link></li>
   <li class="list-none">|</li>
-  <li class="list-none"><kol-link _href="https://github.com/public-ui/kolibri" _target="github"><kol-icon _icon="codicon codicon-github" /> GitHub</kol-link></li>
+  <li class="list-none"><kol-link _href="https://github.com/public-ui/kolibri" _target="github"><kol-icon _icons="codicon codicon-github" /> GitHub</kol-link></li>
 </ul>
 
 ---

@@ -13,7 +13,7 @@ import {
 import "./base.css";
 
 register(
-  [BMF, DEFAULT, DESYv2, ECL_EC, ECL_EU, ITZBund, MAPZ, ZOLLv2, TH],
+  [BMF, DEFAULT, ECL_EC, ECL_EU, ITZBund, TH],
   [],
   {
     theme: {
@@ -22,6 +22,6 @@ register(
   }
 )
   .then(() => {
-    document.body.dataset.theme = "itzbund";
+    document.body.dataset.theme = "default";
   })
   .catch(() => console.warn);

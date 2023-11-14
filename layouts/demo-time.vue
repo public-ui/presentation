@@ -11,28 +11,28 @@
             <div class="text-center">
               <KolButton
                 _label="Primary"
-                _icon="codicon codicon-home"
+                _icons="codicon codicon-home"
                 _variant="primary"
               />
             </div>
             <div class="text-center">
               <KolButton
                 _label="Secondary"
-                v-bind:_icon="{ right: 'codicon codicon-edit' }"
+                v-bind:_icons="{ right: 'codicon codicon-edit' }"
                 _variant="secondary"
               />
             </div>
             <div class="text-center">
               <KolButton
                 _label="Danger"
-                _icon="codicon codicon-trash"
+                _icons="codicon codicon-trash"
                 _variant="danger"
               />
             </div>
             <div class="text-center">
               <KolButton
                 _label="Ghost"
-                v-bind:_icon="{ right: 'codicon codicon-lightbulb' }"
+                v-bind:_icons="{ right: 'codicon codicon-lightbulb' }"
                 _variant="ghost"
               />
             </div>
@@ -41,7 +41,7 @@
             <div class="text-center">
               <KolButton
                 _label="Primary"
-                _icon="codicon codicon-home"
+                _icons="codicon codicon-home"
                 _hide-label
                 _variant="primary"
               />
@@ -49,7 +49,7 @@
             <div class="text-center">
               <KolButton
                 _label="Secondary"
-                _icon="codicon codicon-edit"
+                _icons="codicon codicon-edit"
                 _hide-label
                 _tooltip-align="right"
                 _variant="secondary"
@@ -58,7 +58,7 @@
             <div class="text-center">
               <KolButton
                 _label="Danger"
-                _icon="codicon codicon-trash"
+                _icons="codicon codicon-trash"
                 _hide-label
                 _tooltip-align="bottom"
                 _variant="danger"
@@ -67,7 +67,7 @@
             <div class="text-center">
               <KolButton
                 _label="Ghost"
-                _icon="codicon codicon-lightbulb"
+                _icons="codicon codicon-lightbulb"
                 _hide-label
                 _tooltip-align="left"
                 _variant="ghost"
@@ -87,7 +87,7 @@
           />
           <KolButton
             _label="Übernehmen"
-            _icon="codicon codicon-reply"
+            _icons="codicon codicon-reply"
             _hide-label
             @click="buttonOn.onClick"
             v-bind:_on="buttonOn"
@@ -113,10 +113,6 @@ const options = [
     label: "Default",
     value: "default",
   },
-  // {
-  // 	label: 'DEZY-Styleguide',
-  // 	value: 'desy-v2',
-  // },
   {
     label: "European Commission-Styleguide",
     value: "ecl-ec",
@@ -128,18 +124,6 @@ const options = [
   {
     label: "ITZBund-Styleguide",
     value: "itzbund",
-  },
-  {
-    label: "MAPZoll-Styleguide",
-    value: "mapz",
-  },
-  {
-    label: "Freistaat Thüringen",
-    value: "th",
-  },
-  {
-    label: "Zoll-Designsystem",
-    value: "zoll-v2",
   },
 ];
 

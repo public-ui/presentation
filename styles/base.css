@@ -43,3 +43,45 @@ small.underline::before {
 :host kol-span-wc > span {
 	gap: 0.5em;
 }
+
+* {
+	text-transform: unset !important;
+}
+
+.timeline {
+	display: flex;
+	flex-direction: row;
+	overflow-x: auto;
+	padding: 20px;
+}
+
+.event {
+	list-style: none;
+	position: relative;
+	width: 200px; /* oder eine andere Breite, je nach Bedarf */
+	margin-right: 20px;
+	padding: 20px;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+}
+
+.event::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 90px;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: rgb(14, 74, 107);
+	margin-top: -10px;
+}
+
+.date {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.content {
+	line-height: 1.6;
+}

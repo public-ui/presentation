@@ -1,28 +1,29 @@
 <template>
   <div class="bg-main slidev-layout">
-    <layout-header :logoHeader="logoHeader" />
+    <layout-header :logoHeader="logoHeader" :showQR="showQR" />
     <div class="my-auto">
       <slot />
     </div>
-    <layout-footer
-      :website="website"
-      :handle="handle"
-    />
+    <layout-footer :website="website" :handle="handle" />
   </div>
 </template>
 
 <script setup lang="ts">
-import { defineProps, defineComponent } from 'vue'
-import LayoutHeader from '../components/LayoutHeader.vue'
-import LayoutFooter from '../components/LayoutFooter.vue'
+import { defineProps, defineComponent } from "vue";
+import LayoutHeader from "../components/LayoutHeader.vue";
+import LayoutFooter from "../components/LayoutFooter.vue";
 
 const components = defineComponent({
   LayoutHeader,
-  LayoutFooter
-})
+  LayoutFooter,
+});
 const props = defineProps({
   logoHeader: {
     type: String,
+  },
+  showQR: {
+    default: true,
+    type: Boolean,
   },
   website: {
     type: String,
@@ -30,5 +31,5 @@ const props = defineProps({
   handle: {
     type: String,
   },
-})
+});
 </script>

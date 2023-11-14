@@ -125,9 +125,9 @@ handle: 2
 
 - Komponente ≙ <strong>eigene</strong> HTML-Elemente
 - Komponente besteht aus …
-  - HTML <kol-icon _icon="icofont-arrow-right"></kol-icon> <strong>Semantik</strong>
-  - JavaScript <kol-icon _icon="icofont-arrow-right"></kol-icon> <strong>Verhalten</strong>
-  - CSS <kol-icon _icon="icofont-arrow-right"></kol-icon> <strong>Aussehen</strong>
+  - HTML <kol-icon _icons="icofont-arrow-right"></kol-icon> <strong>Semantik</strong>
+  - JavaScript <kol-icon _icons="icofont-arrow-right"></kol-icon> <strong>Verhalten</strong>
+  - CSS <kol-icon _icons="icofont-arrow-right"></kol-icon> <strong>Aussehen</strong>
 - <strong>Robuster konsistenter teilbarer</strong> Baustein (Shadow DOM)
 - **erst 2021** technischer Durchbruch (<kol-abbr _title="Microsoft Internet Explorer 11">IE11</kol-abbr> & <kol-abbr _title="Microsoft Edge Webbrowser">EDGE</kol-abbr>)
 - in allen webbasierten Benutzeroberflächen wiederverwendbar (Web & App)<sup>1</sup>
@@ -272,7 +272,7 @@ Im Code-Beispiel wird dargestellt, wie u.a. die Anforderungen an die Barrierefre
 
 
 ```tsx {1,14|2-8|9-13|all}
-<kol-button _icon="ui-home" _icon-only _label="Primary">
+<kol-button _icons="ui-home" _icon-only _label="Primary">
   <button aria-labelledby="574540" class="primary" type="button">
     <span>
       <kol-icon>
@@ -385,11 +385,11 @@ layout: center
 # Vielen Dank für Ihre Aufmerksamkeit
 
 <ul class="flex">
-  <li class="list-none"><kol-link _href="https://public-ui.github.io" _target="storybook"><kol-icon _icon="fa-sharp fa-solid fa-book" /> Dokumentation</kol-link></li>
+  <li class="list-none"><kol-link _href="https://public-ui.github.io" _target="storybook"><kol-icon _icons="fa-sharp fa-solid fa-book" /> Dokumentation</kol-link></li>
   <li class="list-none">|</li>
-  <li class="list-none"><kol-link _href="mailto:kolibri@itzbund.de" _target="storybook"><kol-icon _icon="fa-solid fa-envelope" /> kolibri@itzbund.de</kol-link></li>
+  <li class="list-none"><kol-link _href="mailto:kolibri@itzbund.de" _target="storybook"><kol-icon _icons="fa-solid fa-envelope" /> kolibri@itzbund.de</kol-link></li>
   <li class="list-none">|</li>
-  <li class="list-none"><kol-link _href="https://github.com/public-ui" _target="storybook"><kol-icon _icon="fa-brands fa-github" /> GitHub</kol-link></li>
+  <li class="list-none"><kol-link _href="https://github.com/public-ui" _target="storybook"><kol-icon _icons="fa-brands fa-github" /> GitHub</kol-link></li>
 </ul>
 
 ---
