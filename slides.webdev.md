@@ -44,16 +44,12 @@ showQR: false
 
 # Speaker
 
-<v-clicks>
-
 - Mein Name ist **Martin** Oppitz.
 - **Wertegang:**
   - Inzwischen **über 20 Jahre** im Web unterwegs
   - Informatikstudium, Selbstständig und **Inverso**
   - Seit 3 Jahren beim **ITZBund**
 - **Softwarearchitekt** im Referat **Anforderungs- und Lösungsdesign** (II A 2)
-
-</v-clicks>
 
 ---
 layout: center

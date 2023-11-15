@@ -41,10 +41,7 @@ layout: about-me
 showQR: false
 ---
 
-
 # Speaker
-
-<v-clicks>
 
 - Mein Name ist **Martin** Oppitz.
 - **Wertegang:**
@@ -53,7 +50,6 @@ showQR: false
   - Seit 3 Jahren beim **ITZBund**
 - **Softwarearchitekt** im Referat **Anforderungs- und Lösungsdesign** (II A 2)
 
-</v-clicks>
 
 ---
 layout: center
@@ -146,14 +142,16 @@ Inhalte des Vortrags:
 
 <v-clicks>
 
-- Was ist unsere **Motivation**?
+- Was treibt uns an, **KoliBri** zu entwickeln?
+- Was steckt hinter dem **Atomic Design**?
 - Wie funktioniert das **Theming**?
-- **Live**-Vorstellung
-- Welche **USPs** ergeben sich?
-- Welches **Potenzial** hat der Standard?
+- **Live**-Beispiel zur Veranschaulichung
+- Welche einzigartigen Eigenschaften (**USPs**) ergeben sich?
+- Inwiefern können wir **Standards** setzen?
 - Was regelt die **EUPL**-Lizenz?
 
 </v-clicks>
+
 ---
 layout: image-right-50
 image: '/assets/html-js-css.png'
@@ -190,6 +188,7 @@ Der HTML-Webstandard lässt aber das **Wie** dabei offen. Somit liegt die Aufgab
 
 ---
 layout: image-right
+image: '/assets/pmpc-logo.jpg'
 handle: 4
 ---
 
@@ -200,14 +199,60 @@ handle: 4
 - gesetzliche Verpflichtung zur Erstellung barrierefreier Benutzeroberflächen
 - Großteil der Komponentenbibliotheken haben den Fokus auf Design
 - Anforderungen werden immer wieder neu in Projekten umgesetzt
+- Mittels Web Components ist ein unabhängiger Standard möglich (seit Mitte 2020)
 - Reduzierung der Herstellerabhängigkeit (Digitale Souveränität)
 
 <br/>
 
-Der **große Vorteil für die Bundesverwaltung** liegt darin, dass wir mittels des Web Component-Standards eine für uns **ideale Lösung** gemeinsam **umsetzen**, **wiederverwenden** (teilen), **verbessern** und **erweitern** können.
+Der **große Vorteil für die Bundesverwaltung**, und jetzt für **uns alle**, liegt darin, dass wir mittels des Web Component-Standards gemeinsam eine optimalen Referenzimplementierung **umsetzen**, **wiederverwenden** (teilen), **verbessern** und **erweitern** können.
 
 ---
+layout: image-right-50
+image: '/assets/atomic-design-layering.png'
+style: 'width: 70%'
 handle: 5
+---
+
+# Atomic Design
+
+<small class="underline">Decoupling ensures efficient development processes.</small>
+
+- Ziel ist es eine nutzbare **Basis** zu bereitzustellen
+- **Fokus** liegt auf **kleinteiligen** Komponenten
+- Jede Komponente ist in sich **barrierefrei** (Moleküle)
+- Die Verwendung ist nur über die **API** möglich (Robustheit)
+- **Komposition-Pattern** ermöglicht eine nahtlose **Verwendung**
+- KoliBri-Komponenten bleiben fachlich **neutral**
+
+<br/>
+
+> **Fachlich höherwertige Komponenten** werden auf Basis von KoliBri im **Design System** der eigenen Organisation oder des eigenen Unternehmens umgesetzt.
+
+
+---
+layout: image-right
+image: '/assets/logo.kolibri.png'
+handle: 6
+---
+
+# Manifest
+
+<small class="underline">Keep the focus on your qualities.</small>
+
+Das Manifest beschreibt die uns leitenden **Softwarequalitäten**.
+
+- Benutzerfreundlichkeit
+- Kompatibilität
+- Portabilität
+- Wartbarkeit
+- Funktionale Eignung
+- Sicherheit
+
+<br />
+<span>Ausführliche Version - <kol-link _href="https://public-ui.github.io/docs/manifest" _target="website">Manifest</kol-link></span>
+
+---
+handle: 7
 ---
 
 # Theming
@@ -219,7 +264,7 @@ handle: 5
 
 ---
 layout: demo-time
-handle: 6
+handle: 8
 ---
 
 # Live-Demo
@@ -255,7 +300,7 @@ Im Code-Beispiel wird dargestellt, wie die Anforderungen an die Barrierefreiheit
 
 ---
 layout: image-right
-handle: 7
+handle: 9
 ---
 
 # Alleinstellungsmerkmale
@@ -272,7 +317,7 @@ Aus Sicht der öffentlichen Verwaltung hat KoliBri eine ganze Reihe an Alleinste
 
 ---
 layout: center
-handle: 8
+handle: 10
 ---
 
 # Historie
@@ -308,30 +353,8 @@ handle: 8
 
 ---
 layout: image-right
-image: '/assets/logo.kolibri.png'
-handle: 9
----
-
-# Manifest
-
-<small class="underline">Keep the focus on your qualities.</small>
-
-Das Manifest beschreibt die uns leitenden **Softwarequalitäten**.
-
-- § 1 Benutzerfreundlichkeit
-- § 2 Kompatibilität
-- § 3 Portabilität
-- § 4 Wartbarkeit
-- § 5 Funktionale Eignung
-- § 6 Sicherheit
-
-<br />
-<span>Ausführliche Version - <kol-link _href="https://public-ui.github.io/docs/manifest" _target="website">Manifest</kol-link></span>
-
----
-layout: image-right
 image: '/assets/architecture.png'
-handle: 10
+handle: 11
 ---
 
 # Benefits
@@ -353,7 +376,7 @@ handle: 10
 ---
 layout: image-right
 image: '/assets/eupl.jpeg'
-handle: 11
+handle: 12
 ---
 
 # Lizenz
@@ -373,7 +396,7 @@ Die "Open-Source-Lizenz für die Europäische Union" (EUPL) ist eine von der Eur
 ---
 layout: image-right-50
 image: '/assets/website.png'
-handle: 12
+handle: 13
 style: 'width: 100%'
 ---
 
