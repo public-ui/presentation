@@ -160,7 +160,7 @@ handle: 2
 
 # Web Components
 
-<small class="underline">Was ist eine Web Component?</small>
+<small class="underline">What is a Web Component?</small>
 
 Webseiten werden mit HTML-Elementen umgesetzt.
 
@@ -180,11 +180,13 @@ handle: 3
 
 # Viele Wege führen nach Rom
 
-<small class="underline">Worin liegt eigentlich das Problem?</small>
+<small class="underline">What is actually the problem?</small>
 
 Barrierefreie Benutzeroberflächen werden durch die semantisch korrekte Komposition von HTML-Elementen realisiert.
 
 Der HTML-Webstandard lässt aber das **Wie** dabei offen. Somit liegt die Aufgabe, das "Problem" zu lösen, bei den Entwickelnden. Darüber hinaus gilt es, die Richtlinien der <kol-abbr _title="Web Content Accessibility Guidelines">WCAG</kol-abbr> mit den gestalterischen Aspekten aus den vielseitigen Styleguides zu vereinen.
+
+**Da die Anforderungen an die Barrierefreiheit ja für uns alle gleich sind**, ist es sinnvoll, diese Aufgabe nur einmal zu lösen und die Lösung **wiederverwendbar** zu machen.
 
 ---
 layout: image-right
@@ -194,7 +196,7 @@ handle: 4
 
 # Motivation
 
-<small class="underline">Welche Ziele können damit verfolgt werden?</small>
+<small class="underline">What goals can be pursued?</small>
 
 - gesetzliche Verpflichtung zur Erstellung barrierefreier Benutzeroberflächen
 - Großteil der Komponentenbibliotheken haben den Fokus auf Design
@@ -257,7 +259,7 @@ handle: 7
 
 # Theming
 
-<small class="underline">Wie ist KoliBri aufgestellt?</small>
+<small class="underline">How can KoliBri be designed?</small>
 
 <img src="/assets/theming.png" class="w-3/4 m-auto"/>
 
@@ -269,7 +271,7 @@ handle: 8
 
 # Live-Demo
 
-<small class="underline">Wo wird denn hier was eingespart?</small>
+<small class="underline">Where are savings being made here?</small>
 
 Im Code-Beispiel wird dargestellt, wie die Anforderungen an die Barrierefreiheit im Button "weg gekapselt" werden.
 
@@ -305,7 +307,7 @@ handle: 9
 
 # Alleinstellungsmerkmale
 
-<small class="underline">Was macht eigentlich den Unterschied?</small>
+<small class="underline">What actually makes the difference?</small>
 
 Aus Sicht der öffentlichen Verwaltung hat KoliBri eine ganze Reihe an Alleinstellungsmerkmalen:
 
@@ -381,7 +383,7 @@ handle: 12
 
 # Lizenz
 
-<small class="underline">Was steckt hinter der Lizenz EUPL?</small>
+<small class="underline">What is behind the EUPL license?</small>
 
 Die "Open-Source-Lizenz für die Europäische Union" (EUPL) ist eine von der Europäischen Union herausgegebene Copyleft-Lizenz für die Lizenzierung freier Software.
 
